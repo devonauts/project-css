@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel='stylesheet' href='css/style.css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Niconne&family=Pacifico&family=Pirata+One&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Niconne&family=Pacifico&family=Pirata+One&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="/">
+                <div class="logo">
+                    <span>Event App</span>
+                </div>
+            </a>
+
+
+            <ul class="nav-links">
+                
+                <li><a href='events.html'>Events</a></li>
+                <li><a href='menu.html'>Menu</a></li>
+                <li><a href='location.html'>Location</a></li>
+                <li><a href='contact.html'>Contact Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section class="cart-page">
+        <h1>Your Cart</h1>
+        <div class="cart-items">
+          <!-- Event 1 -->
+          <div class="cart-item">
+            <img src="/images/egypt3.avif" alt="Event 1" class="item-image">
+            <div class="item-details">
+              <h2 class="item-title">Egypt Tour</h2>
+              <p class="item-date">Date: Jan 15, 2025</p>
+              <p class="item-price">$250</p>
+            </div>
+            <div class="item-actions">
+              <input type="number" min="1" value="1" class="item-quantity">
+              <button class="remove-button">Remove</button>
+            </div>
+          </div>
+    
+          <!-- Event 2 -->
+          <div class="cart-item">
+            <img src="/images/jirafes.avif" alt="Event 2" class="item-image">
+            <div class="item-details">
+              <h2 class="item-title">Safari Adventure</h2>
+              <p class="item-date">Date: Feb 20, 2025</p>
+              <p class="item-price">$350</p>
+            </div>
+            <div class="item-actions">
+              <input type="number" min="1" value="1" class="item-quantity">
+              <button class="remove-button">Remove</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+          <h3>Total: $600</h3>
+          <button class="checkout-button">Proceed to Checkout</button>
+        </div>
+      </section>
+</main>
+<footer>
+    <p>&copy; 2025 All rights reserved. Devonauts Inc.</p>
+</footer>
+</body>
+</html>
